@@ -1,0 +1,80 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../assets/inventorybg.png'); 
+    background-size: cover;     
+    background-position: center; 
+    background-repeat: no-repeat;   
+}
+
+.login-container .login {
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem;
+    background-color: #ffffff;
+    height: 60%;
+    width: 40%;
+    border-radius: 2rem;
+}
+
+.login-container .login .login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+
+.login-container .login .login-form h2 {
+    font-size: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.login-form .input-group {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.login-form .input-group input[type="text"],
+.login-form .input-group input[type="password"] {
+    height: 3rem;
+    width: 70%;
+    border: none;
+    border-bottom: solid 2px #313131;
+    font-size: 3rem;
+    background: transparent;
+    padding: 8px 0;
+    margin: 2rem 0;
+    outline: none;
+    color: #393E46;
+    box-sizing: border-box;
+}
+
+.login-form .input-group input::placeholder {
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+.login-form button{
+    width: 70%;
+    height: 5rem;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 3rem;
+    background: #CF0F47;
+    color: #f0f0f0;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 10px 8px rgba(0, 0, 0, 0.2); 
+    transition: all 0.3s ease;
+    border-radius: 1rem;
+}
+
+.login-form button:hover{
+    background-color: #313131;
+    box-shadow: 0 20px 8px rgba(0, 0, 0, 0.2); 
+}

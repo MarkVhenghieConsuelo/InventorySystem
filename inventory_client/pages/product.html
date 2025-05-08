@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="../styles/global.css">
+    <link rel="stylesheet" href="../styles/product.css">
+    <title>Product</title>
+</head>
+<body>
+    <div class="container product-container">
+      <div class="sidebar">
+        <div class="sidebar-menu">
+          <h2>Inventory System</h2>
+          <ul>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="product.html" class="active">Product</a></li>
+            <li><a href="category.html">Category</a></li>
+            <li><a href="sales.html">Sales</a></li>
+          </ul>
+        </div>
+        <div class="sidebar-bottom">
+          <div class="sidebar-menu bottom">
+            <ul>
+              <li><a href="#">Settings</a></li>
+              <li><a href="#" class="menu-logout">Logout</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  
+      <main class="main-content">
+        <div class="product-table">
+            <div class="addForm">
+                <form id="productForm">
+                    <div class="formGroup">
+                        <label>Product Name</label>
+                        <input type="text" id="productName" name="productName" required />
+                    </div>
+                    <div class="formGroup">
+                        <label>Product Description</label>
+                        <textarea id="productDescription" name="productDescription" required></textarea>
+                    </div>
+                    <div class="formGroup">
+                        <label>Product Quantity</label>
+                        <input type="number" id="productQty" name="productQty" required />
+                    </div>
+                    <div class="formGroup">
+                        <label>Product Price</label>
+                        <input type="number" id="productPrice" name="productPrice" required />
+                    </div>
+                    <div class="formGroup">
+                        <button>Submit</button>
+                    </div>
+                </form>
+            </div>
+            <div class="addTable">
+                <table class="table table-striped" id="productTable">
+                    <thead>
+                      <tr>
+                        <th>Name</th>
+                        <th>Description</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Category</th>
+                      </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+                <ul class="pagination justify-content-center" id="pagination"></ul>
+            </div>
+        </div>
+      </main>
+    </div>
+    <script src="../scripts/product.js"></script>
+  </body>
+</html>

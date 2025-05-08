@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.product-table{
+    display: flex;
+    align-self: start;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+
+.product-table .addForm{
+    display: flex;
+    flex: 3;
+}
+
+.product-table .addForm form{
+    width: 100%;
+    padding: 0 1.3rem;
+}
+
+.addForm .formGroup{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.addForm .formGroup label{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.addForm .formGroup input{
+    height: 3rem;   
+    border-radius: 5px;
+    border: none;
+    padding: 0.3rem;
+    font-size: 1.4rem;
+}
+
+.addForm .formGroup textarea{
+    height: 5rem; 
+    border-radius: 5px;
+    border: none;
+    padding: 0.3rem;
+    font-size: 1.4rem;
+    resize: none;
+}
+
+.addForm .formGroup button{
+    height: 5rem;
+    font-size: 2rem;
+    border-radius: 10px;
+    background-color: #CF0F47;
+    color: #f1f1f1;
+    font-weight: bold;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.addForm .formGroup button:hover{
+    background-color: #83072a;
+}
+
+/* TABLE */
+
+.product-table .addTable {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    height: 100%;
+    flex: 7;
+    padding: 0 2rem;
+    position: relative;
+}
+
+.product-table .addTable table {
+    max-height: 400px;   /* Set your desired fixed height */
+    width: 100%;
+    border-radius: 10px;
+    border-collapse: collapse;
+    overflow-y: auto;   /* Enable scrolling if content exceeds height */
+}
+
+.product-table .addTable .pagination {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+    gap: 0.5rem;
+}
+
+.product-table .addTable table th {
+    background-color: #CF0F47;
+    color: #f1f1f1;
+    font-weight: bold;
+    font-size: 1.4rem;
+    height: 3rem;
+    border-collapse: collapse;
+    text-align: start;
+    padding: 1rem;
+}
+
+.product-table .addTable table td {
+    color: #000000;
+    font-weight: bold;
+    font-size: 1.4rem;
+    height: 3rem;
+    padding: 1rem;
+    border-collapse: collapse;
+}
+
+.product-table .addTable table tr:nth-child(even) {
+    background-color: #e2e1e1;
+}
+
+.product-table .addTable table tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+.pagination {
+    margin-top: 20px;
+    gap: 0.5rem;
+    display: flex;
+}
+
+.pagination .page-item {
+    list-style: none;
+}
+
+.pagination .page-item .page-link {
+    color: #CF0F47;
+    font-weight: bold;
+    border-radius: 6px;
+    border: none;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #CF0F47;
+    color: white;
+    border-color: #CF0F47;
+}
+
+.pagination .page-item.disabled .page-link {
+    color: #ccc;
+    pointer-events: none;
+    background-color: #f8f9fa;
+}
