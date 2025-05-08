@@ -3,6 +3,6 @@ services:
     name: inventory-api
     env: dotnet
     plan: free
-    rootDir: Inventory_server
+    rootDir: inventory_server
     buildCommand: dotnet build InventorySystem.sln
     startCommand: dotnet run --project InventorySystem/InventorySystem.csproj
