@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/n6fVW1UiLU=",
+  "dgSpecHash": "hlg/B4Z28DE=",
   "success": true,
-  "projectFilePath": "E:\\MainPortFolio\\Visual Studio Projects\\InventorySystem\\InventorySystem\\InventorySystem.csproj",
+  "projectFilePath": "E:\\MainPortFolio\\ForGithub\\InventorySystem\\inventory_server\\InventorySystem\\InventorySystem.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\markv\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\markv\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",

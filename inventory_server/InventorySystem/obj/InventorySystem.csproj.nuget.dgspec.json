@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\MainPortFolio\\Visual Studio Projects\\InventorySystem\\InventorySystem\\InventorySystem.csproj": {}
+    "E:\\MainPortFolio\\ForGithub\\InventorySystem\\inventory_server\\InventorySystem\\InventorySystem.csproj": {}
   },
   "projects": {
-    "E:\\MainPortFolio\\Visual Studio Projects\\InventorySystem\\InventorySystem\\InventorySystem.csproj": {
+    "E:\\MainPortFolio\\ForGithub\\InventorySystem\\inventory_server\\InventorySystem\\InventorySystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\MainPortFolio\\Visual Studio Projects\\InventorySystem\\InventorySystem\\InventorySystem.csproj",
+        "projectUniqueName": "E:\\MainPortFolio\\ForGithub\\InventorySystem\\inventory_server\\InventorySystem\\InventorySystem.csproj",
         "projectName": "InventorySystem",
-        "projectPath": "E:\\MainPortFolio\\Visual Studio Projects\\InventorySystem\\InventorySystem\\InventorySystem.csproj",
+        "projectPath": "E:\\MainPortFolio\\ForGithub\\InventorySystem\\inventory_server\\InventorySystem\\InventorySystem.csproj",
         "packagesPath": "C:\\Users\\markv\\.nuget\\packages\\",
-        "outputPath": "E:\\MainPortFolio\\Visual Studio Projects\\InventorySystem\\InventorySystem\\obj\\",
+        "outputPath": "E:\\MainPortFolio\\ForGithub\\InventorySystem\\inventory_server\\InventorySystem\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
