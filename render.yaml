@@ -5,4 +5,4 @@ services:
     plan: free
     rootDir: Inventory_server
     buildCommand: dotnet build InventorySystem.sln
-    startCommand: dotnet run --project Inventory/Inventory.csproj
+    startCommand: dotnet run --project InventorySystem/InventorySystem.csproj
